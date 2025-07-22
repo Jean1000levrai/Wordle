@@ -1,0 +1,11 @@
+🤓 done
+😰 in dev
+🤡 to do
+
+- ui/ux 😰
+
+- rice it 🤡
+
+- make it functional 🤡
+
+- history 🤡

@@ -7,5 +7,4 @@ for (let j = 0; j < 5; j++) {
         attempts[j].push("_");
     }
 }
-attempts[2][4] = "eee";
 

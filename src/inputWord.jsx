@@ -6,9 +6,7 @@ function InputWord(){
     return(
         <>
             <br></br>
-            {Array.from({length: nbL}, (_, i) => (
-                <button>_</button>
-            ))}
+            <input type="text"></input>
         </>
     );
 };
