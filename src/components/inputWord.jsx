@@ -1,4 +1,4 @@
-import { nbLetters } from "./config";
+import { nbLetters } from "../config";
 
 
 function InputWord(){
@@ -7,6 +7,7 @@ function InputWord(){
         <>
             <br></br>
             <input type="text"></input>
+            <button>Submit</button>
         </>
     );
 };

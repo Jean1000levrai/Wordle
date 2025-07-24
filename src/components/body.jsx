@@ -1,5 +1,5 @@
-import { nbLetters } from "./config"; 
-import { attempts } from "./config";
+import { nbLetters } from "../config"; 
+import { attempts } from "../config";
 
 function AttemptsWords(){
     const rows = 5;

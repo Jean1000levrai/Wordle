@@ -1,18 +1,22 @@
-import Header from "./header";
-import AttemptsWords from "./body";
-import InputWord from "./inputWord";
+import Header from "./components/header";
+import AttemptsWords from "./components/body";
+import InputWord from "./components/inputWord";
+import Footer from "./components/footer";
 
 function App() {
-
-  // hello
   return (
-    <>
-      <Header></Header>
-      <AttemptsWords></AttemptsWords>
-      <InputWord></InputWord>
-    </>
-    
+    <div className="app-wrapper">
+      <main>
+        <Header />
+        <AttemptsWords />
+        <InputWord />
+      </main>
+      <footer>
+        <Footer />
+      </footer>
+    </div>
   );
 }
+
 
 export default App;
