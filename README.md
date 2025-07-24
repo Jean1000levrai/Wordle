@@ -1,7 +1,7 @@
 # Wordle
 ---
 
-A simple Wordle-style word guessing game built with React. Through this project I will about react, deepen my knowledge and data implementation in browser
+A simple Wordle-style word guessing game built with React. Through this project I will about react, deepen my knowledge of javascript and data implementation in browser
 
 > 🚧 **This project is under active development**. Features and behavior may change.
 
