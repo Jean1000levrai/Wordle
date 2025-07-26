@@ -1,5 +1,14 @@
+# dependencies
 node_modules/
-eslint.config.js
-package.json
-package-lock.json
-vite.config.js
+
+# production build
+dist/
+
+# environment variables
+.env
+.env.*.local
+
+# system/IDE files
+.DS_Store
+.vscode/
+*.log
