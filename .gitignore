@@ -12,3 +12,6 @@ dist/
 .DS_Store
 .vscode/
 *.log
+
+# other
+./src/test.js
