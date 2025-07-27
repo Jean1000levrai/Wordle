@@ -1,0 +1,14 @@
+# dependencies
+node_modules/
+
+# production build
+dist/
+
+# environment variables
+.env
+.env.*.local
+
+# system/IDE files
+.DS_Store
+.vscode/
+*.log
