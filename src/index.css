@@ -4,6 +4,7 @@
 h1 {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .app-wrapper {
@@ -16,6 +17,63 @@ h1 {
 main {
   flex: 1;
 }
+
+/* -----------grid---------- */
+
+table.grid {
+  border: 2px solid black;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+table.grid td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+.grid-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;     
+  height: 100vh;    
+}
+
+.letterCell{
+  border: none;
+  background: none;
+  font-size: large;
+}
+
+.input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  
+}
+
+
+/* -----------history---------- */
+
+.historyContainer{
+  display: flex;
+  margin: 0 auto;
+  padding: 0px 10px;
+  height: 200px;
+  width: 60%;
+  border: 2px solid black;
+  overflow-y: auto;
+}
+
+.historyModuleTrue, .historyModuleFalse {
+    width: 90%;
+    margin: 0px 0;
+    padding: 0px 100px;
+    background-color: lightgray;
+}
+
+
+
 
 /* -----------footer---------- */
 

@@ -4,11 +4,12 @@ import { nbLetters } from "../config";
 function InputWord(){
     const nbL = nbLetters;
     return(
-        <>
+        <div className="input">
             <br></br>
-            <input type="text"></input>
-            <button>Submit</button>
-        </>
+            <input type="text" className="inputWord"></input>
+            <button className="submitBtnWord">Submit</button>
+
+        </div>
     );
 };
 

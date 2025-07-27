@@ -7,13 +7,13 @@ function AttemptsWords(){
 
     return(
 
-        <table>
+        <table className="grid">
             <tbody>
                 {Array.from({length: rows}, (_, rowIndex) => (
                     <tr key={rowIndex}>
                         {Array.from({length: cols}, (_, colIndex) => (
                             <td key={colIndex}>
-                                <button>{attempts[rowIndex][colIndex]}</button>
+                                <button className="letterCell">{attempts[rowIndex][colIndex]}</button>
 
                             </td>
                         ))}

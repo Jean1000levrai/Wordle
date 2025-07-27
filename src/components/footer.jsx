@@ -6,8 +6,8 @@ function Footer(){
         <>
             <div className="IconsSocials">
                 <a href="https://github.com/Jean1000levrai/Wordle" title="GitHub Repo"><i class="fa-brands fa-github"></i></a>
-                <a href="https://github.com/Jean1000levrai/Wordle" title="Email Me"><i class="fa-solid fa-envelope"></i></a>
-                <a href="https://github.com/Jean1000levrai/Wordle" title="HackClub"><i class="fa-brands fa-hackerrank"></i></a>
+                <a href="mailto:jean2salomon@icloud.com" title="Email Me"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://summer.hackclub.com" title="HackClub"><i class="fa-brands fa-hackerrank"></i></a>
                 
             </div>
 
